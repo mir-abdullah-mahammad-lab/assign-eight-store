@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Link from "next/link";
 import { authClient } from "@/lib/auth-client";
 import FooterPage from "@/components/Footer";
+import { BiLogoGmail } from "react-icons/bi";
 
 const onSubmit = async (e) => {
     e.preventDefault();
@@ -35,7 +36,13 @@ const SignInPage = () => {
  return (
         <div>
             <Navbar></Navbar>
-            <div className="h-full bg-amber-200 flex justify-center items-center  p-20 mx-auto">
+            
+            <div className="h-full bg-amber-200 flex flex-col justify-center items-center  p-20 mx-auto">
+              <button className="btn btn-info flex justify-center items-center"> 
+                <span className="inline"><BiLogoGmail></BiLogoGmail></span> 
+                <span>Signin with google</span>
+                </button>
+
                           <Form className="flex w-96 flex-col gap-4" onSubmit={onSubmit}>
       <TextField
         isRequired

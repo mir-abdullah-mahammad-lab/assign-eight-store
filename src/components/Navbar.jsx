@@ -25,8 +25,12 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1L flex justify-between items-center gap-3 ">
       <button className='btn btn-active'> <Link href={'/'}>Home</Link></button>
-      <button className='btn btn-active'><Link href={'/products'}>Product</Link></button>
-      <button className='btn btn-active'> <Link href={'/profile'}>Profile</Link></button>  
+      {session? <button className='btn btn-active'><Link href={'/products'}>Products</Link></button> :
+      <button className='btn btn-active'><Link href={'/sign-in'}>Products</Link></button>
+      }
+      {session? <button className='btn btn-active'> <Link href={'/profile'}>Profile</Link></button> :
+       <button className='btn btn-active'><Link href={'/sign-in'}>Profile</Link></button>
+       }
      </ul>
   </div>
  { session? <div className="navbar-end">

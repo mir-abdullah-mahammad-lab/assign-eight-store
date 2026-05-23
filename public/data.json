@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://ibb.co.com/jPmPCBsL",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Beach Straw Hat",
+    "brand": "SunnyWear",
+    "price": 12,
+    "rating": 4.5,
+    "stock": 20,
+    "description": "Lightweight straw hat to keep you cool and protected from the sun.",
+    "image": "https://ibb.co.com/7dPJLLPw",
+    "category": "Fashion"
+  },
+  {
+    "id": 3,
+    "name": "Portable Mini Fan",
+    "brand": "CoolBreeze",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 15,
+    "description": "Rechargeable portable fan for staying cool during hot summer days.",
+    "image": "https://ibb.co.com/qFFXyMLN",
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "name": "Insulated Water Bottle",
+    "brand": "HydroFresh",
+    "price": 22,
+    "rating": 4.8,
+    "stock": 25,
+    "description": "Keeps drinks cold for up to 24 hours, ideal for summer trips.",
+    "image": "https://ibb.co.com/1tRRmMBs",
+    "category": "Outdoor"
+  },
+  {
+    "id": 5,
+    "name": "Summer Flip Flops",
+    "brand": "BeachStep",
+    "price": 14,
+    "rating": 4.4,
+    "stock": 30,
+    "description": "Comfortable and durable flip flops for beach and casual wear.",
+    "image": "https://ibb.co.com/Hfx3VwXL",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Cooling Face Mist",
+    "brand": "FreshGlow",
+    "price": 9,
+    "rating": 4.3,
+    "stock": 18,
+    "description": "Refreshing cooling mist to keep your skin hydrated in summer heat.",
+    "image": "https://ibb.co.com/jPmPCBsL",
+    "category": "Beauty"
+  }
+]

@@ -7,7 +7,7 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://ibb.co.com/jPmPCBsL",
+    "image": "https://i.ibb.co.com/VYjrj47D/glasses.png",
     "category": "Accessories"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.5,
     "stock": 20,
     "description": "Lightweight straw hat to keep you cool and protected from the sun.",
-    "image": "https://ibb.co.com/7dPJLLPw",
+    "image": "https://i.ibb.co.com/Q3LFttL2/hat.png",
     "category": "Fashion"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.6,
     "stock": 15,
     "description": "Rechargeable portable fan for staying cool during hot summer days.",
-    "image": "https://ibb.co.com/qFFXyMLN",
+    "image": "https://i.ibb.co.com/JFF0BRWv/minifan.png",
     "category": "Electronics"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.8,
     "stock": 25,
     "description": "Keeps drinks cold for up to 24 hours, ideal for summer trips.",
-    "image": "https://ibb.co.com/1tRRmMBs",
+    "image": "https://i.ibb.co.com/Pv116MJT/waterbottle.png",
     "category": "Outdoor"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.4,
     "stock": 30,
     "description": "Comfortable and durable flip flops for beach and casual wear.",
-    "image": "https://ibb.co.com/Hfx3VwXL",
+    "image": "https://i.ibb.co.com/hJZwyQCx/slipper.png",
     "category": "Footwear"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.3,
     "stock": 18,
     "description": "Refreshing cooling mist to keep your skin hydrated in summer heat.",
-    "image": "https://ibb.co.com/jPmPCBsL",
+    "image": "https://i.ibb.co.com/JFF0BRWv/minifan.png",
     "category": "Beauty"
   }
 ]

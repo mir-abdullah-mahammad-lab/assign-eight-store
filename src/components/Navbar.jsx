@@ -8,7 +8,7 @@ import { authClient } from '@/lib/auth-client';
 
 const Navbar = () => {
     const {data: session } = authClient.useSession()
-    console.log('SESSION', session?.user.name)
+    // console.log('SESSION', session?.user.name)
 
     return (
         <div>

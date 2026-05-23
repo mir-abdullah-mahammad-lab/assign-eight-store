@@ -11,16 +11,16 @@ export default function Home() {
     <div>
     <Navbar></Navbar>
   
-     {/* <Marquee> */}
-       <div className="flex items-center gap-0">
+     <Marquee speed={10}>
+       <div className="flex items-center gap-0 h-96 bg-amber-100">
         <Image
     src={logo}
     alt={"Company logo"}
-    height={200}
-    width={200} className=""></Image>
+    height={300}
+    width={300} ></Image>
     <h2 className="text-2xl text-gray-950 italic">Summer Sale !!! Flat 25% Off on all items </h2>
      </div>
-     {/* </Marquee> */}
+     </Marquee>
 
      
     <ItemProd></ItemProd>

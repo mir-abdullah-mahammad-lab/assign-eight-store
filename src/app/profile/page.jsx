@@ -9,7 +9,7 @@ import Link from "next/link";
 const Profile = () => {
     const {data:session} = authClient.useSession()
     // console.log(session.user,'SESSION')
-    const {name, email, image} = session?.user
+    const {name, email, image} = session?.user || {}
 
 
     return (

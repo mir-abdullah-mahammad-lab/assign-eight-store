@@ -1,7 +1,10 @@
 'use client'
+import FooterPage from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import { authClient} from "@/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
+
 
 const Profile = () => {
     const {data:session} = authClient.useSession()
@@ -11,6 +14,7 @@ const Profile = () => {
 
     return (
         <div>
+            <Navbar></Navbar>
             {session.user? <div className="flex flex-col justify-center space-y-7">
             <h1 className="text-5xl text-red-300 italic"> Name: {name}</h1>
             <div className="flex items-center">
@@ -24,6 +28,7 @@ const Profile = () => {
             </div>
             <h2>Email: {email}</h2>
         </div> : <Link href={"/"}><button className="btn btn-success">Home</button></Link>}
+        <FooterPage></FooterPage>
         </div>
     );
 };

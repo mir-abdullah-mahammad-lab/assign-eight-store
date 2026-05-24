@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Link from "next/link";
 import { authClient } from "@/lib/auth-client";
 import FooterPage from "@/components/Footer";
-import { BiLogoGmail } from "react-icons/bi";
+import { FcGoogle } from "react-icons/fc";
 
 const onSubmit = async (e) => {
     e.preventDefault();
@@ -29,7 +29,11 @@ const onSubmit = async (e) => {
 
 console.log('sign-in data', res, error)
 };
-
+const handleGoogleSignIn = async () =>{
+  const data = await authClient.signIn.social({
+    provider: "google",
+  });
+}
 
 
 const SignInPage = () => {
@@ -37,9 +41,11 @@ const SignInPage = () => {
         <div>
             <Navbar></Navbar>
             
-            <div className="h-full bg-amber-200 flex flex-col justify-center items-center  p-20 mx-auto">
-              <button className="btn btn-info flex justify-center items-center"> 
-                <span className="inline"><BiLogoGmail></BiLogoGmail></span> 
+            <div className="h-full bg-amber-100 flex flex-col justify-center items-center  p-20 mx-auto">
+              <button className="btn bg-base-200 flex justify-center items-center" 
+              onClick={handleGoogleSignIn}
+              > 
+                <span className="inline"><FcGoogle /></span> 
                 <span>Signin with google</span>
                 </button>
 
@@ -86,7 +92,7 @@ const SignInPage = () => {
         <FieldError />
       </TextField>
 
-      <h2>If you are not registered! <Link href={'/register'}><button className="btn btn-active">sign-up</button></Link> </h2>
+      <h2>If you are not registered! <Link href={'/register'}><button className="btn bg-base-100">sign-up</button></Link> </h2>
 
       <div className="flex gap-2">
         <Button type="submit">
